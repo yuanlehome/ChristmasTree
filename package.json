@@ -1,15 +1,26 @@
 {
-  "name": "christmastree",
+  "name": "interactive-3d-christmas-tree",
   "version": "1.0.0",
-  "description": "",
+  "description": "A magical, interactive 3D Christmas Tree experience with hand tracking, photo gallery, and particle animations.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack"
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "threejs",
+    "react-three-fiber",
+    "3d",
+    "christmas",
+    "interactive",
+    "hand-tracking",
+    "mediapipe",
+    "gsap",
+    "particles"
+  ],
+  "author": "yuanlehome",
+  "license": "MIT",
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.22-rc.20250304",
     "@react-three/drei": "^10.7.7",
