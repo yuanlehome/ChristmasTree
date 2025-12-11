@@ -18,6 +18,8 @@ const Controls = () => {
             enableDamping
             dampingFactor={0.05}
             enabled={!focusedPhoto} // Disable controls when a photo is focused
+            autoRotate={!focusedPhoto} // Auto-rotate when not focused
+            autoRotateSpeed={2.0} // Adjust speed as needed
         />
     );
 };

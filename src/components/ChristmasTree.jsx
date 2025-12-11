@@ -56,9 +56,8 @@ const ChristmasTree = () => {
     if (groupRef.current) {
         if (phase === 'nebula' && gesture === 'Open_Palm') {
             groupRef.current.rotation.y += delta * 0.5;
-        } else if (phase === 'tree') {
-            groupRef.current.rotation.y += delta * 0.2;
-        }
+        } 
+        // Manual rotation for tree phase removed in favor of OrbitControls.autoRotate
     }
   });
 
